@@ -1,0 +1,99 @@
+body{
+    background-image: url("../images/wp3493599-black-space-wallpaper-hd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+.field {
+	width: 600px;
+	height: 600px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;    
+}
+.field div {
+	width: 30px;
+	height: 30px;
+}
+.alien {
+    background-image: url("../images/icons8-alien-96.png");
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.ship {
+	background-image: url("../images/rocket-297573.svg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.bullet {
+   background-image: url("../images/three-booster-rocket.svg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.explotion {
+   background-image: url("../images/bang.svg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.screen{
+    text-align: center;
+    position: relative;
+}
+#info{
+    color: aliceblue;
+}
+.results{
+    padding-top: 1rem;
+    font-family:  Copperplate, Papyrus, fantasy;
+    text-align: center;
+    color: rgb(250, 248, 245);
+    
+}
+#result2{
+    z-index: 1;
+    position: absolute;
+    justify-content: center;
+    color: rgb(237, 234, 243);
+    font-weight: bolder;
+    font-size: 2rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family:  Copperplate, Papyrus, fantasy;
+    display: none;
+}
+button{
+    text-align: center;
+    height: 2.4rem;
+    font-size: 1rem;
+    color: rgb(255, 249, 249);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    border: 1px solid rgb(255, 255, 255);
+    background-color:inherit ;
+    border-radius: 5px;
+    
+}
+@media screen and (max-width:680px) {
+    .field {
+        width: 300px;
+        height: 300px;      
+    }
+    .field div {
+        width: 15px;
+        height: 15px;
+    }
+    #result2{    
+        font-size: 1.5rem;
+    }
+    button{     
+        height: 2rem;
+        font-size: .7rem;       
+    }
+}
